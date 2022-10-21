@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F6F6F6;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 117px;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding-left: 7%;
+    padding-right: 4%;
+}
+
+.logodindin {
+    size-adjust: auto;
+    padding-right: 7%;
+}
+
+.menu {
+    width: 309px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header a {
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF4081;
+    max-width: 488px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+.container p {
+    font-style: normal;
+    font-size: 27px;
+    font-weight: 400;
+    color: #555555;
+    max-width: 462px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0.0059%;
+    margin-bottom: 46.5px;
+
+}
+
+#button {
+    font-size: 27px;
+    font-weight: 400;
+    color: #FF4081;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#ilustra-banner {
+    position: relative;
+    margin-top: 20%;
+    max-width: 400px;
+}
+
+.container2 {
+    background-color: #E5E5E5;
+    display: inline-flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    width: 100%;
+    margin-top: 4.125rem;
+    padding-bottom: 8.608rem;
+    border-right: 10%;
+    border-left: 10%;
+}
+
+h2 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 25px;
+    size: 17px;
+}
+
+.container2 p {
+    Font: Ubuntu;
+    text-align: center;
+    color: #000000;
+    max-width: 400px;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 26px;
+}
+
+#button2 {
+    background-color: #FF4081;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+}
+
+.container2 a {
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.container2 img {
+    padding-top: 6.813rem;
+}
+
+#titulodepoimentos {
+    padding-top: 7.438rem;
+    padding-left: 10%;
+}
+
+h3 {
+    font-size: 37px;
+    font-weight: 700;
+    height: 4.875rem;
+    color: #009688;
+    max-width: 100vw;
+}
+
+#clientes1e2 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+#cliente1,
+#cliente2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#clientes3e4 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-left: 10%;
+    gap: 10px;
+    padding-top: 5.375rem;
+    padding-bottom: 155px;
+}
+
+#cliente3,
+#cliente4 {
+    display: flex;
+    flex-direction: row;
+}
+
+#conteudocliente1,
+#conteudocliente2,
+#conteudocliente3,
+#conteudocliente4 {
+    padding-left: 1.75rem;
+}
+
+.container3 {
+    padding-right: 10%;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#caixa h5,
+#caixa p {
+    margin: 0px;
+}
+
+h4 {
+    font-size: 37px;
+    font-weight: 700;
+    height: 4.875rem;
+    color: #009688;
+    max-width: 100vw;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+    width: 100%;
+}
+
+.titulomaisconteudo {
+    padding-left: 10%;
+    background-color: #E5E5E5;
+    padding-top: 4.875rem;
+    margin-bottom: 0px;
+}
+
+.container3 p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+#caixa {
+    max-width: 19.938rem;
+}
+
+.buttonconteudo {
+    background-color: #E5E5E5;
+    text-align: center;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#button3 {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 51px;
+    width: 289px;
+    border: 2px solid #FF4081;
+    color: #FF4081;
+    border-radius: 62px;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27, 73px;
+}
+
+#button3 a {
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+
+    #clientes1e2,
+    #clientes3e4 {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #clientes3e4 {
+        padding-top: 0;
+    }
+
+    .container3 img {
+        width: 100%;
+    }
+
+    .container #ilustra-banner {
+        width: 100%;
+    }
+}
+
+footer {
+    max-width: 100%;
+    min-height: 207px;
+    background-color: #419488;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-justify: center;
+    vertical-align: baseline;
+}
+
+
+.radius1 {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-justify: center;
+}
+
+.button_footer ul li {
+    border: 2px solid #ffffff;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    margin-bottom: 13px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.button_footer a {
+    padding-left: 41px;
+    padding-right: 41px;
+}

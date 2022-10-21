@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*  - - - - - -HEADER - - - - - */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 117px;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding-left: 7%;
+    padding-right: 4%;
+}
+
+.logodindin {
+    size-adjust: auto;
+    padding-right: 7%;
+}
+
+.menu {
+    width: 309px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header a {
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+/* - - - - BODY - - - - */
+
+main {
+    margin-bottom: 12rem;
+}
+
+
+.titulo {
+    margin-top: 5.06rem;
+    margin-left: 3rem;
+    padding-left: 2.13rem;
+    margin-bottom: 5.94rem;
+}
+
+.titulo h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.31rem;
+    text-transform: capitalize;
+    color: #ff4081;
+}
+
+.titulo p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.44rem;
+    color: #555555;
+}
+
+.container {
+    display: flex;
+    margin: 7.5%;
+    max-width: 100%;
+    margin-bottom: 4.25rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.text1,
+.text2,
+.text3 {
+    width: 70rem;
+    padding: 1rem 1rem 0 3.31rem;
+}
+
+.text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.19vw;
+    line-height: 2.5vw;
+    color: #ff4081;
+}
+
+.text p {
+    padding: 2.33rem 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    text-align: start;
+    line-height: 1.85rem;
+}
+
+.button {
+    width: 14.56vw;
+    height: 3.19vw;
+    padding: .81vw .56vw;
+    border: none;
+    border-radius: 3.88rem;
+    background: #2e948a;
+    font-weight: 400;
+    font-size: 1.25vw;
+    font-weight: 1.44rem;
+    color: #ffffff;
+}
+
+.button > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.linha {
+    max-width: 100%;
+    height: .31rem;
+    background: #c4c4c4;
+    border: none;
+    margin-left: 5.13rem;
+    margin-right: 7.13rem;
+    margin-bottom: 5.81rem;
+}
+
+/* - - - FOOTER - - - */
+
+footer {
+    max-width: 100%;
+    min-height: 207px;
+    background-color: #419488;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-justify: center;
+    vertical-align: baseline;
+}
+
+
+.radius1 {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-justify: center;
+}
+
+.button_footer ul li {
+    border: 2px solid #ffffff;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    margin-bottom: 13px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.button_footer a {
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+
+
+
+/*  - - - - MEDIA QUERIES - - - - */
+
+/* Body */
+
+@media (max-width: 1170px) {
+
+    .titulo {
+        padding: 0;
+        margin: 10% 25%;
+        text-align: center;
+    }
+
+    .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .card img {
+        min-width: 40%;
+        width: 45%;
+    }
+
+    .text {
+        width: 84.9vw;
+        padding: 0 8%;
+        text-align: center;
+    }
+
+    .text h2 {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.9em;
+        line-height: .85em;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 2.25rem 0;
+        font-size: 1.13em;
+        font-weight: 300;
+        line-height: .99em;
+
+    }
+
+    .linha {
+        margin: 0 8%;
+    }
+
+    .button {
+        width: 14em;
+        height: 3em;
+        padding: .4em .5em;
+        border: none;
+        border-radius: 3.88rem;
+        font-size: .9em;
+
+    }
+}

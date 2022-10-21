@@ -1,0 +1,212 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*  - - - - - -HEADER - - - - - */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 117px;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding-left: 7%;
+    padding-right: 4%;
+}
+
+.logodindin img {
+    
+    padding-right: 7%;
+}
+
+.menu {
+    width: 309px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 7%;
+}
+
+header a {
+    max-width: 100%;
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* - - - - BODY - - - - */
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.88rem;
+    color: #ff4081;
+    padding-bottom: 1.07rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79.23%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 6.38rem;
+    margin-bottom: 6.38rem;
+}
+
+.container form {
+    display: grid;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;
+    min-width: 10rem;
+    width: 30.81rem;
+    padding: 0 1rem 0 0;
+}
+
+.container img {
+    max-width: 100%;
+    width: 100%;
+    padding-left: .3rem;
+}
+
+
+.left-side {
+    max-width: 100%;
+    height: auto;
+    width: 40%;
+    padding-right: 1em;
+}
+
+#nome,
+#email,
+#mensagem {
+    border: 1px solid #686868;
+    border-radius: .44rem;
+    background: #ffffff;
+}
+
+#mensagem {
+    height: 12.06rem;
+}
+
+#button {
+    width: 6.75em;
+    padding: .31em .44em;
+    background: #ff4081;
+    border: none;
+    border-radius: 3.13rem;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.38rem;
+    text-align: center;
+    text-transform: lowercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#mensagem {
+    padding: .31rem 1.38rem;
+    height: 11rem;
+    text-align: start; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.88rem;
+    resize: none;
+    
+}
+
+input[type=text],
+input[type=email] {
+    padding: .31rem 1.38rem;
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* --- FOOTER --- */
+
+footer {
+    max-width: 100%;
+    min-height: 207px;
+    background-color: #419488;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-justify: center;
+    vertical-align: baseline;
+}
+
+
+.radius1 {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-justify: center;
+}
+
+.button_footer ul li {
+    border: 2px solid #ffffff;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    margin-bottom: 13px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.button_footer a {
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .left-side {
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .container img {
+        width: 80%;
+       padding:  0 10%;
+    }
+
+}

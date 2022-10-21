@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+/* -------------------------------- HEADER ----------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 117px;
+  background-color: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  padding-left: 7%;
+  padding-right: 4%;
+}
+
+.logodindin {
+  size-adjust: auto;
+  padding-right: 7%;
+}
+
+.menu {
+  width: 309px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+header a {
+  color: #FDFDFD;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------- HEADER ----------------------------------- */
+
+#principal-curso{
+  width: 100%;
+  min-height: 85%;
+}
+
+.main-title,
+.title{
+  color: #FF4081;
+}
+
+.container-aulas{
+  background-color: #F6F6F6;
+  padding: 2rem;
+  width: 100%;
+}
+
+.video-curso{
+  width: 100%;
+  height: 261px;
+  min-width: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr{
+  border: 3px solid #C4C4C4;
+  width: 90%;
+  max-width: 1244px;
+  min-width: 44ch;
+  margin: 2rem auto;
+}
+
+i{
+  color: #C4C4C4;
+}
+
+.main-title{
+  font-size: 3.5rem;
+}
+
+.title{
+  font-size: 2.25rem;
+}
+
+.main-title,
+.title{
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.texto-curso{
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 1rem auto;
+}
+
+.container-txt-curso,
+.img-curso,
+.video-curso{
+  margin: 1.375rem auto;
+  max-width: 44ch;
+}
+
+@media screen and (min-width: 875px) {
+  .intro-container,
+  .aulas-curso{
+    width: 90%;
+    max-width: 1050px;
+    display: flex;
+    margin: 2.5rem auto;
+  }
+
+  .container-txt-curso,
+  .img-curso,
+  .video-curso{
+  padding: auto .75rem;
+  }
+
+  .separator{
+    height: auto;
+    width: 15px;
+    margin: 0 2rem;
+    border: 2px solid #F6F6F6;
+  }
+}
+
+/* -------------------------------- FOOTER ----------------------------------- */
+
+footer {
+  max-width: 100%;
+  min-height: 207px;
+  background-color: #419488;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-justify: center;
+  vertical-align: baseline;
+}
+
+
+.radius1 {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-justify: center;
+}
+
+.button_footer ul li {
+  border: 2px solid #ffffff;
+  border-radius: 62px;
+  width: 289px;
+  height: 51px;
+  margin-bottom: 13px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.button_footer a {
+  padding-left: 41px;
+  padding-right: 41px;
+}
+
+/* -------------------------------- FOOTER ----------------------------------- */

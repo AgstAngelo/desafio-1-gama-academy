@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+/* -------------------------------- HEADER ----------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 117px;
+  background-color: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  padding-left: 7%;
+  padding-right: 4%;
+}
+
+.logodindin {
+  size-adjust: auto;
+  padding-right: 7%;
+}
+
+.menu {
+  width: 309px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+header a {
+  color: #FDFDFD;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------- HEADER ----------------------------------- */
+
+#principal{
+  width: 100%;
+  min-height: 85%;
+}
+
+.intro-title{
+  color: #009688;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.title{
+  color: #FF4081;
+  font-size: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+.container-aulas{
+  width: 100%;
+  background-color: #F6F6F6;
+  padding: 2rem;
+}
+
+.video{
+  max-width: 511px;
+  background-color: #C4C4C4;
+  height: 259px;
+  margin: 1.375rem auto;
+}
+
+.intro{
+  padding: 1.375rem;
+}
+
+.texto{
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: 1rem auto;
+}
+
+.aulas{
+  margin: 1.5rem auto;
+  padding: 1rem;
+}
+
+.container-texto,
+.intro-img{
+  margin: 1.375rem auto;
+  max-width: 52ch;
+}
+
+.texto{
+  font-weight: 300;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+.title > a{
+  text-decoration: none;
+  color: #FF4081;
+}
+
+@media screen and (min-width: 875px) {
+  .wrapper,
+  .intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .wrapper{
+    max-width: 1156px;
+  }
+
+  .intro{
+    max-width: 1000px;
+  }
+
+  .aulas{
+    width: 50%;
+  }
+}
+
+/* -------------------------------- FOOTER ----------------------------------- */
+
+footer {
+  max-width: 100%;
+  min-height: 207px;
+  background-color: #419488;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-justify: center;
+  vertical-align: baseline;
+}
+
+
+.radius1 {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-justify: center;
+}
+
+.button_footer ul li {
+  border: 2px solid #ffffff;
+  border-radius: 62px;
+  width: 289px;
+  height: 51px;
+  margin-bottom: 13px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.button_footer a {
+  padding-left: 41px;
+  padding-right: 41px;
+}
+
+
+/* -------------------------------- FOOTER ----------------------------------- */
